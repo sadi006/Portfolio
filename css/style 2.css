@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Background/bg.jpg);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.50rem);
+    padding-left: var(--bs-gutter-x,.50rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page {
+    opacity: 1;
+    position: relative;
+    min-height: 50vh;
+    z-index: 4;
+    backdrop-filter: blur(30px);
+    margin-top: 60px;
+    padding-top: 90px;
+    margin: 60px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.page:before {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    content:'';
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header {
+    right: 20px;
+    top: 30px;
+    position: fixed;
+    float: left;
+    pointer-events: none;
+    z-index: 10;
+    width: 100%;
+
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: #000 ;
+    background-size: cover;
+}
+
+.Content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+img {
+    height: 400px;
+    width: auto;
+    padding-left: 110vh;
+    margin: 0;
+    margin-top: 0%;
+}
+
+.text2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+h4 {
+    color: #fff;
+    margin: 5000px 0px 0px;
+    font-size: 25px;
+    margin-top: 800px;
+    font-size: 55px;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+span {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0;
+}
+
+.Header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 129px;
+    margin: 0;
+
+    
+}
+
+.Header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.Header nav ul li a:hover{
+    text-decoration: underline;
+    transition: .4s;
+    color: forestgreen;
+}
